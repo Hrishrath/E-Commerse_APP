@@ -22,10 +22,6 @@ const userSchema = mongoose.Schema({
         required: true,
         unique: true
     },
-    userType: {
-        type: String,
-        trim: true
-    },
     userinfo: {
         type: String,
         trim: true
